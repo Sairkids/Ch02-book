@@ -23,7 +23,17 @@ class Book
         title = bookTitle;
         pages = bookPages;
         
+        printDetails(author,title,pages);
         
+    }
+    
+      /**
+     * printDetails
+     * @print the details of the book (Author, Title, Pages) to console
+     */
+    public void printDetails()
+    {
+        System.out.println(printAuthor + printTitle + printPages);
     }
 
     // Add the methods here ...
@@ -76,6 +86,15 @@ class Book
     /**
      * printPage
      * @print page number to console
+     */
+    public void printPages()
+    {
+        System.out.println("Book's Page: " + pages);
+    }
+    
+    /**
+     * setRefNumber
+     * @set
      */
     public void printPages()
     {
